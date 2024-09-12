@@ -59,7 +59,6 @@ Form çalışmıyor. Göreviniz, kullanıcı "Gönder "e tıkladığında gönde
           placeholder="Kullanıcı adı girin."
           onChange={handleComment}
           value={newComment.userName}
-          required
         />
         <textarea
           placeholder="Ne düşünüyorsunuz?"
